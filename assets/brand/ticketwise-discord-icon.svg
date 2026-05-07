@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Ticketwise Discord icon</title>
+  <desc id="desc">A blue app icon with a white ticket and blue checkmark.</desc>
+  <rect width="1024" height="1024" rx="220" fill="#2563eb"/>
+  <path
+    d="M259 314h506c33 0 60 27 60 60v82c-45 0-82 37-82 82s37 82 82 82v82c0 33-27 60-60 60H259c-33 0-60-27-60-60v-82c45 0 82-37 82-82s-37-82-82-82v-82c0-33 27-60 60-60Z"
+    fill="#ffffff"/>
+  <path
+    d="M382 526l91 91 186-210"
+    fill="none"
+    stroke="#2563eb"
+    stroke-width="72"
+    stroke-linecap="round"
+    stroke-linejoin="round"/>
+  <path
+    d="M321 382v260"
+    fill="none"
+    stroke="#dbeafe"
+    stroke-width="26"
+    stroke-linecap="round"
+    stroke-dasharray="1 52"/>
+</svg>
