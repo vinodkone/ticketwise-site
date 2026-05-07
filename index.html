@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Ticketwise resolves Discord support tickets with FAQ-grounded AI drafts and automatic FAQ suggestions.">
+    <title>Ticketwise - AI-powered Discord support tickets</title>
+    <link rel="stylesheet" href="assets/ticketwise-site.css">
+  </head>
+  <body>
+    <main class="page">
+      <header class="site-header" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Ticketwise home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" focusable="false">
+              <path d="M6 12.5l4 4L18.5 7"></path>
+            </svg>
+          </span>
+          <span>Ticketwise</span>
+        </a>
+        <nav>
+          <a href="#workflow">Workflow</a>
+          <a href="#commands">Commands</a>
+          <a href="#privacy">Privacy</a>
+          <a href="#support">Support</a>
+          <a class="nav-cta" href="https://discord.com/oauth2/authorize?client_id=1500149649309307073&amp;permissions=360777378832&amp;scope=bot%20applications.commands">Add to Discord</a>
+        </nav>
+      </header>
+
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span>AI-powered support for Discord servers</p>
+          <h1>Resolve Discord support tickets before they pile up.</h1>
+          <p class="hero-lead">Ticketwise drafts FAQ-grounded answers, routes them to mods, and turns repeated questions into better FAQs.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="https://discord.com/oauth2/authorize?client_id=1500149649309307073&amp;permissions=360777378832&amp;scope=bot%20applications.commands">Add to Discord</a>
+            <a class="button secondary" href="#workflow">See how it works</a>
+          </div>
+          <ul class="trust-list" aria-label="Ticketwise trust points">
+            <li>Mod-reviewed drafts</li>
+            <li>FAQ-grounded answers</li>
+            <li>Auto-FAQ suggestions</li>
+          </ul>
+        </div>
+
+        <aside class="product-preview" aria-label="Ticketwise product preview">
+          <div class="window-bar">
+            <span></span><span></span><span></span>
+            <strong>ticket-0042 - mod suggestions</strong>
+          </div>
+          <div class="preview-body">
+            <div class="ticket-card">
+              <div class="ticket-title">Private ticket channel</div>
+              <div class="message">
+                <strong>Member</strong>
+                <p>Do you have a moderation policy? What happens if someone breaks it?</p>
+              </div>
+              <div class="message ai">
+                <strong>Ticketwise draft - grounded in FAQ #3</strong>
+                <p>Yes. Our moderation policy prohibits harassment, spam, hate speech, and unsafe content. Mods may warn, mute, or ban depending on severity.</p>
+                <div class="mini-actions">
+                  <span>Send as-is</span>
+                  <span>Edit &amp; send</span>
+                </div>
+              </div>
+            </div>
+            <div class="faq-callout">
+              <strong>Suggested FAQ update</strong>
+              <p>Moderation policy questions appeared in 4 tickets over the last 30 days.</p>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="workflow-section" id="workflow">
+        <div class="section-heading">
+          <h2>A support loop that keeps getting lighter.</h2>
+          <p>Approved FAQs ground each response. Resolved tickets reveal missing FAQs. Every accepted FAQ improves the next ticket.</p>
+        </div>
+
+        <div class="workflow-diagram" aria-label="Ticketwise support workflow">
+          <svg class="loop-lines" viewBox="0 0 1120 610" preserveAspectRatio="none" aria-hidden="true">
+            <defs>
+              <marker id="gray-arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+                <path d="M0,0 L0,6 L8,3 z"></path>
+              </marker>
+              <marker id="green-arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+                <path d="M0,0 L0,6 L8,3 z"></path>
+              </marker>
+            </defs>
+            <path class="gray-flow" d="M560 152 C855 152 940 300 842 385"></path>
+            <path class="gray-flow" d="M770 470 C620 565 420 565 335 470"></path>
+            <path class="gray-flow" d="M280 385 C175 270 295 152 505 152"></path>
+            <path class="green-flow" d="M326 400 L444 400"></path>
+          </svg>
+          <div class="blue-read-arrow" aria-hidden="true"></div>
+
+          <article class="workflow-node node-one">
+            <span class="node-number">1</span>
+            <h3>Ticket comes in</h3>
+            <p>Ticketwise reads the question and checks your published FAQs.</p>
+            <span class="tag blue">Grounded by FAQs</span>
+          </article>
+
+          <article class="workflow-node node-two">
+            <span class="node-number">2</span>
+            <h3>Draft goes to mods</h3>
+            <p>Your team reviews, edits, or sends the answer from Discord.</p>
+            <span class="tag gray">Human reviewed</span>
+          </article>
+
+          <article class="workflow-node node-three">
+            <span class="node-number">3</span>
+            <h3>Conversations reveal FAQ gaps</h3>
+            <p>Repeated resolved tickets become suggested FAQ updates.</p>
+            <span class="tag green">Extends FAQs</span>
+          </article>
+
+          <article class="faq-hub">
+            <h3>FAQs</h3>
+            <p>Approved answers become the source of truth for future tickets.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="commands-section" id="commands">
+        <div class="section-heading left">
+          <h2>Commands that fit the support workflow.</h2>
+          <p>Ticketwise keeps setup and support actions inside Discord, where moderators already work.</p>
+        </div>
+        <div class="command-grid">
+          <article><code>/getting-started</code><p>Show setup steps, key commands, and website/support links.</p></article>
+          <article><code>/ticket-setup</code><p>Post the ticket panel and connect support and logs channels.</p></article>
+          <article><code>/ticket-close</code><p>Close a ticket, save the transcript, and queue FAQ extraction.</p></article>
+          <article><code>/ticket-add</code><p>Add another member to an active support ticket.</p></article>
+          <article><code>/faq-add</code><p>Add approved answers that ground future AI drafts.</p></article>
+          <article><code>/faq-list</code><p>Review the FAQ corpus Ticketwise uses for responses.</p></article>
+          <article><code>/faq-suggest</code><p>Review FAQ candidates mined from resolved tickets.</p></article>
+        </div>
+      </section>
+
+      <section class="info-section" id="privacy">
+        <div>
+          <h2>Privacy</h2>
+          <p>Ticketwise stores only the Discord IDs and ticket data needed to run support workflows. That includes guild configuration, ticket transcripts, FAQ entries, FAQ candidates, and moderator decisions used for auditability and better future answers.</p>
+          <p>Ticket questions, conversation context, and relevant FAQs may be sent to Anthropic to generate AI drafts and FAQ candidates. Drafts are generated for moderator review and are not sent to members until a human chooses to send or edit them.</p>
+        </div>
+        <div id="support">
+          <h2>Support</h2>
+          <p>Need help setting up Ticketwise? Open an issue on GitHub while the public support server is being prepared.</p>
+          <a class="button secondary" href="https://github.com/vinodkone/vibot">View GitHub repo</a>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <p>Ticketwise - AI-powered Discord ticket support</p>
+        <div>
+          <a href="#privacy">Privacy</a>
+          <a href="#support">Support</a>
+          <a href="https://github.com/vinodkone/vibot">GitHub</a>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
